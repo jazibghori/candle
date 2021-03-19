@@ -18,7 +18,7 @@ basic.forever(function () {
             led.unplot(2, 0)
             led.plot(flicker, 0)
         }
-        basic.pause(1000)
+        basic.pause(100)
     } else {
         basic.clearScreen()
     }
